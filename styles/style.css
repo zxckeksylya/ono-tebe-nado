@@ -124,7 +124,7 @@ body {
     letter-spacing: 0.3em;
 }
 
-.aligned-text font {
+.aligned-text span {
     letter-spacing: 0.5em;
 }
 
@@ -144,9 +144,7 @@ body {
     justify-content: space-between;
     align-items: center;
     position: relative;
-
     text-transform: uppercase;
-
     z-index: 1;
 }
 
