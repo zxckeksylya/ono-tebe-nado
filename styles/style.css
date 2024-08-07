@@ -31,6 +31,7 @@ body {
     justify-content: space-between;
     list-style-type: none;
     gap: 13px;
+    font-size: 18px;
 }
 
 .header_links-list-item::before {
@@ -40,6 +41,7 @@ body {
 
 .header_links-list-item.header__links-list-item_no-bullit::before {
     content: '';
+    padding-right: 0;
 }
 
 .header__link {
@@ -69,8 +71,10 @@ body {
 }
 
 .header__address {
-    width: 210px;
+    width: 240px;
     z-index: 1;
+
+    font-size: 18px;
 }
 
 .address {
@@ -120,18 +124,18 @@ body {
 
 .aligned-text {
     display: block;
-    line-height: 100%;
+    line-height: 115%;
     letter-spacing: 0.3em;
 }
 
 .aligned-text span {
-    letter-spacing: 0.5em;
+    letter-spacing: 0.6em;
 }
 
 .aligned-text.aligned-text_center {
     position: relative;
     text-align: center;
-    left: -28px;
+    left: -30px;
 }
 
 .aligned-text.aligned-text_right {
@@ -149,10 +153,7 @@ body {
 }
 
 .cover__description-text {
-    display: flex;
-    justify-content: space-evenly;
-    column-gap: 1rem;
-    word-spacing: 1rem;
+    word-spacing: 1.1em;
     font-size: 22px;
 }
 
