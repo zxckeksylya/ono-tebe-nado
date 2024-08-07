@@ -36,6 +36,7 @@ body {
 
 .header_links-list-item::before {
     content: '◦';
+    font-size: 22px;
     padding-right: 11px;
 }
 
@@ -66,8 +67,8 @@ body {
 }
 
 .header__logo-image {
-    width: 124px;
-    height: 95px;
+    width: 148px;
+    height: 105px;
 }
 
 .header__address {
@@ -135,21 +136,24 @@ body {
 .aligned-text.aligned-text_center {
     position: relative;
     text-align: center;
+    line-height: 115%;
     left: -30px;
 }
 
 .aligned-text.aligned-text_right {
     text-align: right;
+    line-height: 115%;
 }
 
 .cover__description {
-    margin-top: 135px;
+    padding-top: 135px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
     text-transform: uppercase;
     z-index: 1;
+    padding-left: 28px;
 }
 
 .cover__description-text {
