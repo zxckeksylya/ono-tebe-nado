@@ -3,21 +3,13 @@ body {
     font-weight: normal;
 }
 
-.wrapper {
-    padding-left: 24px;
-    padding-right: 24px;
-}
-
 .header {
-    padding-top: 98px;
-    padding-bottom: 98px;
-}
-
-.header .wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: relative;
+
+    padding: 98px 50px 98px 50px;
 }
 
 .header__menu {
@@ -80,6 +72,7 @@ body {
 
 .address {
     text-wrap: wrap;
+    line-height: 24px;
 }
 
 .address a {
