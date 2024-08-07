@@ -118,7 +118,7 @@ body {
 
 .aligned-text {
     display: block;
-    line-height: 115%;
+    line-height: 110%;
     letter-spacing: 0.3em;
 }
 
@@ -150,7 +150,7 @@ body {
 }
 
 .cover__description-text {
-    word-spacing: 1.1em;
+    word-spacing: 1em;
     font-size: 22px;
 }
 
