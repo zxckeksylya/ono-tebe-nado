@@ -259,6 +259,9 @@
 }
 
 .about__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #000;
     border-radius: 50%;
     position: relative;
@@ -267,10 +270,6 @@
 }
 
 .about__logo-image {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
     width: 148px;
     height: 114px;
 }
@@ -278,7 +277,7 @@
 .about__title {
     text-transform: uppercase;
     font-size: 40px;
-    padding-top: 103px;
+    padding-top: 100px;
 }
 
 .about__text {
@@ -291,12 +290,8 @@
 
 .footer {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 180px;
-    padding-bottom: 88px;
+    padding: 180px 50px 88px;
 }
 
 .footer__address {
@@ -318,13 +313,14 @@
     font-size: 18px;
 }
 
-.footer__menu-link.footer__menu-link_active {
+.footer__menu-link_active {
     border-bottom: 0;
 }
 
 .footer__social-list {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 48px;
     list-style-type: none;
 }
