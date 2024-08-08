@@ -112,7 +112,6 @@
     position: relative;
     text-align: center;
     line-height: 100%;
-    left: -15px;
 }
 
 .aligned-text.aligned-text_right {
@@ -120,24 +119,12 @@
     line-height: 100%;
 }
 
-.letter-spacing-0 {
+.no-spacing {
     letter-spacing: 0;
 }
 
-.letter-spacing-6 {
+.medium-spacing {
     letter-spacing: 0.6em;
-}
-
-.letter-spacing-8 {
-    letter-spacing: 0.8em;
-}
-
-.letter-spacing-9 {
-    letter-spacing: 0.9em;
-}
-
-.letter-spacing-11 {
-    letter-spacing: 1.1em;
 }
 
 .cover__description {
@@ -149,6 +136,7 @@
     text-transform: uppercase;
     z-index: 1;
     padding-left: 28px;
+    word-spacing: 19px;
 }
 
 .cover__description-text {
@@ -160,14 +148,11 @@
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     color: #fff;
-
     text-transform: uppercase;
-
+    font-family: inherit;
     font-size: 22px;
-    padding-left: 32px;
-    padding-top: 12px;
-    padding-right: 32px;
-    padding-bottom: 12px;
+
+    padding: 12px 32px;
 
     letter-spacing: 0;
 }
